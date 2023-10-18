@@ -1,0 +1,24 @@
+.ListInheader {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.loginButton {
+    background-color: #183059;
+    /* font-size: 18px; */
+    font-weight: bold;
+    color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.registerButton {
+    color:#183059;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #183059;
+}
