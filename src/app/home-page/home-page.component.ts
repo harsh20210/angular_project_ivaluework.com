@@ -37,8 +37,8 @@ export class HomePageComponent {
   };
 
   handleInputChange = (e: any, key: string) => {
-    this.validationInMobile = false;
-    this.validationInEmail = false;
+    // this.validationInMobile = false;
+    // this.validationInEmail = false;
     if (key === 'mobile') {
       this.mobileNumber = e.target.value;
     } else {
@@ -56,6 +56,6 @@ export class HomePageComponent {
   };
 
   handleSubmit = () => {
-    console.log('dsahjdhsajdk');
+    alert("Submit")
   };
 }
