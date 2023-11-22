@@ -200,6 +200,7 @@
   color: #717b9e;
   font-size: 16px;
   margin-right: 8px;
+  display: block;
 }
 
 .title {
@@ -297,4 +298,70 @@
 .validationError {
   color:red;
   font-size: 14px;
+}
+
+
+
+
+
+
+.tableCss {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: 3px solid #ddd;
+  width: 100%;
+  border-collapse: collapse;
+  border-top: none;
+  border-radius: 20px;
+  margin: 0px;
+}
+.tableCss th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #183059;
+  color: #fff;
+  font-size: 14px;
+}
+
+.tableCss td {
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+
+
+.subheadingForemployeList {
+  font-size: 28px;
+  font-family: "Roboto", Sans-serif;
+  font-weight: bold;
+  /* color: #fff; */
+  margin: 0px;
+}
+
+.header-employer {
+  width: 600px;
+    text-align: left;
+    font-size: 16px;
+    /* line-height: 20px; */
+    font-weight: 700;
+    color:#183059;
+}
+
+
+.employeList {
+  /* height: 200px; */
+  border: 1px solid #afb3c3;
+  border-radius: 5px;
+  width: 50%;
+  padding: 15px;
+}
+
+.iconsStyleForEmployer {
+  /* color: #717b9e; */
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 8px;
+  display: block;
+  margin-top: 5px;
 }
